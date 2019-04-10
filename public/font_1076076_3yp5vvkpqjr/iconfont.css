@@ -1,0 +1,33 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1552010722058'); /* IE9 */
+  src: url('iconfont.eot?t=1552010722058#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,d09GMgABAAAAAAP8AAsAAAAACEAAAAOtAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAHEIGVgCDKgqDXIMwATYCJAMUCwwABCAFhG0HVBtAB8iusCnD9QgizBucGwAWuH4AIUQQrZXVM7P7SApJomNFKBQGHFpglTgRHxkVH6HYiPvJ7fXBRUyIGdTUkIPPN37hiCg12cxsi/rUjupjeuEESFwCBMz3AKI7vtYS9v7nE/dOm5bAfPYtlzGXjTUxwDiggMaY2kUlWOLYMHblRVwm0GpEIWp3xrxl4KcwZgXisarw4JcyKTX5oVmoSzYW8QW8NadPdAuAz/7v4z8MyY+kyoyrTm6nSzDpl/c7FlkDFqzLFljjOcC2kbEEFOJhqesaCiNLkFYl1cs60Gw6EmPFIt6xA2NKkWQvqmb8h0eWFEHUjNx2sImihV/eNkHmVwRB4leRUr2ahZL7uKgCrejAWwA/wGBMWVlLkjzk798TEDAY5AWe8GJfVl/fip6eZb29y5etfFTLvtjTVH//in3XrKt7r2+5seyyI0zoNjcpu1Lv8hXt/UKVIfaSrAsMFRUoZPWED3UMxcgtPQEd7P396y3typ6jK8oWlYeXLqnYGAqdl/Z7gqH9a2YEleBu3C91lG65yTaYs1c2jctwVk/0eZ4W8eNCLl1289wEKbo0ryT/f97vWeQekG/ern/paPcOVNHb6JsHaM3kw8O30WfVy8LwhNVl09XD9pDlScs6JpEk835wSJp28PakHRC/dQd9/IjuzuG2PQoPb8k4ntnihddu4+bcLbLfQXfxgLsfQHW19AH6IEg5wEFUW+vID8AS8H0yfpg4Y6itKfcfhOs115dfv1YDK/TW5C/Ph1KARl6QJwaM6ywvKr8EaIheowkA5Cva+sW3+d6YcHdj6Li/fhTw80qjpn7i/yRuLf6hDYVqDEpwqWGuiqxUK42rBSpHflkoodX00YC+Xm/H0Q28JkdoTokZkibDyJpNkQt9CZU2y6g120CrRTO3t+mjQ6K0YMEOgNDtDpJO35B1ayUX+htUBn1FrTuEVlcReWCbmdSAqTrmCZYYoYxRRc0tW1YSEOQvwYrp5PWk1GeuwLqh+pnB7KBsfCZ2Y32MJUaxMoQQmZF1zcXMANdhp1NjPLpmxyJhbYR4xnCcXPYiVtRcEGCHDuMRmIQhKMNQiTRustudCMh9fwlMYXLi6TVtFd4VMJ1B7Z8xGGtQC/JMlbtV27UMNxRTDEEQMp4m02lcGDOgA3OaEQ3DUz7ODhMRLFuPkMcYHOokt1Wx82tcz7gHWhmfqCJFjhJV1OoXWC1V3b6GZhqmNgKJNj5cKC1yYbdZxDtJka4qNgIAAAAA') format('woff2'),
+  url('iconfont.woff?t=1552010722058') format('woff'),
+  url('iconfont.ttf?t=1552010722058') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1552010722058#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-weixin:before {
+  content: "\e62e";
+}
+
+.icon-sousuo6:before {
+  content: "\e612";
+}
+
+.icon-cha:before {
+  content: "\e605";
+}
+
+.icon-bx-menu-alt-right:before {
+  content: "\e62d";
+}
+

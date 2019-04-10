@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>starbucks注册</title>
+    <link rel='shortcut icon' href='https://www.starbucks.com.cn/coffee-blog/assets/favicons/favicon.ico'><link rel='shortcut icon' href='/coffee-blog/assets/favicons/favicon.ico'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="font_1075269_b5ue2v7ae5u/iconfont.css">
+   <style>
+        * {
+            margin:0px;
+            padding:0px;
+        }
+        .menu {
+            width:30%;
+            position: fixed;
+            z-index: 1;
+        }
+        .menu>ul {
+            padding:24px;
+            margin-bottom: 60px;
+        }
+        .menu>ul>li {
+            font-size:14px;
+            font-weight:bold;
+            vertical-align: middle;
+        }
+        hr {
+            margin:0px;
+            border-color:#aaa;
+        }
+        .menu-middle1>div:first-child {
+            font-size: 22px;
+            font-weight:bold;
+            width:80%;
+            margin:0 auto;
+            margin-top:240px;
+            margin-bottom: 20px;
+        }
+        .menuchange {
+            display: none;
+        }
+        .menu-middle2 {
+            width:90%;
+            float: right;
+            font-weight: bold;
+        }
+        .menu-middle2>li {
+            padding: 6px 0;
+        }
+        .menu-middle2-wrap {
+            overflow: hidden;
+        }
+        .menu-middellogin1 {
+            width:80%;
+            margin:0 auto;
+        }
+        .menu-middellogin2 {
+            width:80%;
+            margin:0 auto;
+        }
+        .menu-middellogin1>div:nth-child(2){
+            color:#999;
+        }
+        .menu-middellogin1>div:nth-child(3){
+            color:#999;
+        }
+        .menu-middellogin1>div:nth-child(2):hover{
+            color:black;
+        }
+        .menu-middellogin1>div:nth-child(3):hover{
+            color:black;
+        }
+        .menu-middellogin2>span:last-child {
+            display: inline-block;
+            border:1px solid green;
+            width:50px;
+            height:25px;
+            line-height: 25px;
+            text-align: center;
+            border-radius:10px 10px ;
+            color:green;
+            margin-left: 24px;
+        }
+        .copyright {
+            width:90%;
+            float: right;
+            margin-top:125px;
+            font-size: 8px;
+            color:#aaa;
+        }
+    </style>
+</head>
+<body>
+    <!-- 登录菜单 -->
+    <div class='menu'>
+        <ul class="list-inline list-unstyled">
+            <li><img  class="iconxingbakelogo" width=30 src="https://www.starbucks.com.cn/assets/images/logo.svg" alt=""></li>
+            <li class="menuhide"><a style="text-decoration: none ;color:#333" target="_blank" href="https://www.starbucks.com.cn/stores/?features=&bounds=104.056691%2C30.649474%2C104.08553%2C30.666364">门店</a></li>
+            <li class="menuhide">我的账户</li>
+            <li class="menuhide">菜单</li>
+            <li style="float:right;font-size:16px;margin-top:10px;" class="iconfont iconxialacaidan  xiala1"></li>
+            <li style="float:right;display:none;font-size:16px;margin-top:10px;" class="iconfont iconchenghao chenghao1"></li>
+        </ul>
+        <div class="menuchange">
+                <div class="menu-middle2-wrap">
+                        <ul class="list-unstyled menu-middle2">
+                                <li>门店</li>
+                                <li>星享俱乐部</li>
+                                <li>菜单</li>
+                                <li><hr></li>
+                                <li>星巴克移动应用</li>
+                                <li>星礼卡</li>
+                                <li>星巴克臻选™</li>
+                                <li>专星送™</li>
+                                <li>咖啡星讲堂</li>
+                                <li>上海烘焙工坊</li>
+                                <li>关于星巴克</li>
+                                <li>帮助中心</li>     
+                                <li><hr></li>
+                        </ul>
+                </div>
+                <div class="menu-middellogin2">
+                        <span class="iconfont icondenglu"></span>
+                        <span style="color:green">登录</span>
+                        <span>注册</span>
+                </div>
+                <div class="copyright">
+                    <div>English|隐私政策|使用条款</div>
+                    <div><img src="imgs/guohui.png" width=10 alt="">沪公网安备 31010402000318号 沪ICP备17003747号</div>
+                </div>
+        </div>
+        <div class="menu-middle1">
+                <div>登录或创建一个新账户<span class="iconfont iconxingxing" style="font-size:40px;color:lightblue;"></span></div>
+                <div class="menu-middellogin1">
+                  <div style="width:30px;height:25px;line-height:25px;border-bottom:2px solid green;font-weight: bold;">登录</div>
+                  <div class="menu-middellogin1-reg" style="font-size:13px;padding-top: 10px;">注册</div>
+                  <div style='padding-top:15px;font-size:13px;'>关于星享俱乐部</div>
+                </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div style=" padding:0;position: relative" class="col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-lg-8 col-lg-offset-4 col-xs-8 col-xs-offset-4">
+                <img width=100% src="imgs/login1.jpg" alt="">
+                <img style="z-index:1;position: absolute;right:0px;bottom:-100px;width:100px;height:100px;" src="imgs/login2.png" alt="">
+                <span style="font-size:10px; position: absolute;right:15px;bottom:-30px;z-index: 2">扫码登录</span>
+            </div>
+        </div>
+        <div class="row" style="height:60px"></div>
+        <div class="row">
+            <div class="col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-lg-8 col-lg-offset-4 col-xs-8 col-xs-offset-4">
+               <div style="width:350px;margin:0 auto;">
+                    <input class='input1' style="width:100%;height:50px;border:none;outline: none;border-bottom: 1px solid #999" type="text" name='username' value="" placeholder="请输入用户名">
+                    <br>
+                    <input  class="input2" style="width:100%;height:50px;border:none;outline: none;border-bottom: 1px solid #999" type="password" name='psd' value="" placeholder="请输入密码">
+                    <br>
+                    <span class="loginbutton" style="width:60px;height:40px;line-height:40px;border:1px solid #aaa;text-align:center; border-radius: 16px;float: right;margin-top:10px;color: #666;background-color: #eee">登录</span><span style="color:red" class="warning"></span>
+               </div>
+            </div>
+        </div>
+        <div clas="row">
+            <div style="padding: 0px;position: relative;" class="col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4 col-lg-8 col-lg-offset-4 col-xs-8 col-xs-offset-4">
+                <img style="margin-top: 60px;" src="imgs/login3.png" alt="">
+                <div style="left: 20%;top:50px;position: absolute;width:500px;height:200px;">
+                    <div style="margin-top:30px;font-size: 18px;color:white;font-weight: bold;">加入星享俱乐部</div>
+                    <div style="margin-top:12px;font-size: 13px;color:white;">只需几分钟，便可成功注册星享俱乐部帐户，成为“星”会员，立即开启集星之旅。</div>
+                    <span style="margin-top:30px;display: inline-block; width:56px;height:30px;line-height: 30px;text-align: center;border: 1px solid goldenrod;border-radius: 15px;color:goldenrod;">注册</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script>
+        //获取当前浏览器的高度
+    var browserHeight=document.documentElement.clientHeight;
+    $(".menu").height(browserHeight);
+    //下拉菜单的显示隐藏
+    $(".xiala1").click(function(){
+        $(this).hide(10);
+        $(".chenghao1").show(10);
+        $(".menuhide").hide(10);
+        $(".menu-middle1").hide(10);
+        $(".menuchange").show(10);
+    })
+    $(".chenghao1").click(function(){
+        $(this).hide(10);
+        $(".xiala1").show(10);
+        $(".menuhide").show(10);
+        $(".menu-middle1").show(10);
+        $(".menuchange").hide(10);
+    })
+    //表单
+    $('input').on("focus",function(){
+       $(this).css("border-color","green");
+    })
+    $('input').on("blur",function(){
+       $(this).css("border-color","#999");
+    })
+    //实现登录
+    $(".loginbutton").on("click",function(){
+       var username= $(".input1").val();
+       var psd= $(".input2").val();
+       $.ajax({
+                url:'/login',
+                data:{
+                    username:username,
+                    psd:psd
+                },
+                type:'post',
+                dataType:'json',
+                success:function(results){
+                    if(results.login=="success"){
+                        window.location.href='/main.html';
+                    }else{
+                        $('.warning').text("账号或密码错误");
+                    }
+                },
+                error:function(results){
+                    console.log(results);
+                }
+            })
+    })
+        $('.iconxingbakelogo').on('click',function(){
+        window.location.href="/main.html";
+    })
+       //starbuckslogo 返回首页
+       $('.iconxingbakelogo').on('click',function(){
+        window.location.href="/main.html";
+    })
+    //切换到注册
+    $('.menu-middellogin1-reg').on('click',function(){
+        window.location.href='/reg.html'
+    })
+    </script>
+</body>
+</html>

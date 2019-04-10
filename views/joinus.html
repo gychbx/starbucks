@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="font_1075269_b5ue2v7ae5u/iconfont.css" />
+	<style type="text/css">
+			* {
+				margin: 0;
+				padding: 0;
+			}
+			.a>div {
+				width: 248px;
+				height: 305px;
+				padding: 12px;
+			}
+			.a>div>img {
+				width: 224px;
+				height: 224px;
+				padding: 12px;
+			}
+			.a>div>p {
+				text-align: center;
+				font-size: 16px;
+				margin-top: 10px;
+			}
+			.q>ul>li {
+				margin-top: 12px;
+			}
+			hr {
+				margin-top: 15px;
+				margin-bottom: 18px;
+			}
+			.qq:hover {
+				transform: translateY(-4px);
+				transition: all 0.3s;
+			}
+			.ww:hover {
+				transform: translateY(-4px);
+				transition: all 0.3s;
+			}
+			.y1{
+				display: none;
+			}
+			@media only screen and (max-width:768px) {
+				.y {
+                    display: none;
+                }
+			}
+       	 	@media only screen and (max-width:768px ) {
+				.y1 {
+                    display: block;
+                }
+			}
+			
+		</style>
+	<body>
+		<div style="width: 100%;height: 100%;display: none;" class="s"> 
+			<div class="row" style="margin: 0;height: 160px;">
+					<div style="margin-left: 10px;padding: 18px;margin-top:5px;font-size:16px;font-weight: 600;">
+						<!--<span class="iconfont iconxingbakelogo" style="vertical-align: middle;font-size:35px;"></span>-->
+						<img class="iconxingbakelogo" width=35 src="https://www.starbucks.com.cn/assets/images/logo.svg" >
+
+						<span class="iconfont iconchenghao x1" style="vertical-align: middle;font-size:25px;float: right;margin-right: 5px;"></span>
+					</div>
+				</div>
+				<div class="row q" style="margin: 0;">
+					<ul style="margin-left: 85px;list-style: none;font-size: 18px;font-weight: 600;">
+						<li style="margin-top: 0px;">门店</li>
+						<li>星享俱乐部</li>
+						<li>菜单</li>
+						<hr />
+						<li >星巴克移动应用</li>
+						<li>星礼卡</li>
+						<li>星巴克臻选<sup style="font-size: 1px;">TM</sup</li>
+						<li>专星送<sup style="font-size: 5px;">TM</sup></li>
+						<li>咖啡星讲堂</li>
+						<li>上海烘焙工坊</li>
+						<li>关于星巴克</li>
+						<li>帮助中心</li>
+						<hr />
+					</ul>
+					<div style="margin-left: 85px;font-size: 16px;margin-top: 20px;">
+						<span class="iconfont icondenglu"></span>
+						<%if(typeof name=='undefined'){%>
+							<span class="loginbtn" style="color: green;">登录</span>
+						<%}else{%>
+							<span style="color:green">欢迎<%=name%></span>
+						<%}%>
+						<span class="regbtn" style="margin-left: 30px;display: inline-block;line-height: 30px;text-align: center;
+							border-radius: 20px 20px;border: 1px solid green;;width: 60px;height: 30px;color: green;">注册</span>
+					</div>
+					<div class="row" style="height: 200px;"></div>
+					<div style="color: #9E9E9E; margin-left: 85px;font-size: 12px;margin-top:30px">
+						<div style="letter-spacing: 2px;">English|隐私政策|使用条款</div>
+						<div style="letter-spacing: 2px;"><img src="../public/imgs/guohui.png" width=10 alt="">沪公网安备 31010402000318号 沪ICP备17003747号</div>
+					</div>
+				</div>
+		</div>
+		
+		
+		
+		<div class="p">
+		<div class="y" style="height:1000px;width: 30%;position: fixed;z-index: 200;">
+			<div class="m" style="display: none;">
+				<div class="row" style="margin: 0;height: 160px;">
+					<div style="margin-left: 10px;padding: 18px;margin-top:5px;font-size:16px;font-weight: 600;">
+						<!--<span class="iconfont iconxingbakelogo" style="vertical-align: middle;font-size:35px;"></span>-->
+						<img class="iconxingbakelogo" width=35 src="https://www.starbucks.com.cn/assets/images/logo.svg" >
+
+						<span class="iconfont iconchenghao x" style="vertical-align: middle;font-size:25px;float: right;margin-right: 5px;"></span>
+					</div>
+				</div>
+				<div class="row q" style="margin: 0;">
+					<ul style="margin-left: 85px;list-style: none;font-size: 18px;font-weight: 600;">
+						<li style="margin-top: 0px;">门店</li>
+						<li>星享俱乐部</li>
+						<li>菜单</li>
+						<hr />
+						<li >星巴克移动应用</li>
+						<li>星礼卡</li>
+						<li>星巴克臻选<sup style="font-size: 1px;">TM</sup</li>
+						<li>专星送<sup style="font-size: 5px;">TM</sup></li>
+						<li>咖啡星讲堂</li>
+						<li>上海烘焙工坊</li>
+						<li>关于星巴克</li>
+						<li>帮助中心</li>
+						<hr />
+					</ul>
+					<div style="margin-left: 85px;font-size: 16px;margin-top: 20px;">
+						<span class="iconfont icondenglu"></span>
+						<%if(typeof name=='undefined'){%>
+							<span class="loginbtn" style="color: green;">登录</span>
+						<%}else{%>
+							<span style="color:green">欢迎<%=name%></span>
+						<%}%>
+						<span class="regbtn" style="margin-left: 30px;display: inline-block;line-height: 30px;text-align: center;
+							border-radius: 20px 20px;border: 1px solid green;;width: 60px;height: 30px;color: green;">注册</span>
+					</div>
+					<div style="color: #9E9E9E; margin-left: 85px;font-size: 12px;margin-top:30px">
+						<div style="letter-spacing: 2px;">English|隐私政策|使用条款</div>
+						<div style="letter-spacing: 2px;"><img src="../public/imgs/guohui.png" width=10 alt="">沪公网安备 31010402000318号 沪ICP备17003747号</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="mm">
+				<div class="row" style="margin: 0;height: 225px;">
+					<div style="margin-left: 10px;padding: 18px;margin-top:5px;font-size:16px;font-weight: 600;">
+						<!--<span class="iconfont iconxingbakelogo" style="vertical-align: middle;font-size:35px;color:green;"></span>-->
+						<img style="vertical-align: middle" class="iconxingbakelogo" width=35 src="https://www.starbucks.com.cn/assets/images/logo.svg" alt="">
+						<span style="margin-left: 18px;">门店</span>
+						<span style="margin-left: 18px;">我的账户</span>
+						<span style="margin-left: 18px;">菜单</span>
+						<span class="iconfont iconxialacaidan o" style="vertical-align: middle;font-size:25px;float: right;margin-right: 5px;"></span>
+					</div>
+				</div>
+				
+				<div class="row" style="margin: 0;">
+					<div style="margin-left: 85px;">
+						<div style="font-size: 26px;font-weight: 900;">关于星巴克</div>
+						<ul style="list-style: none;font-size: 16px;">
+							<li style="margin-bottom: 8px;margin-top: 21px;font-size: 16px">星巴克在中国</li>
+							<li style="margin-bottom: 8px;margin-top: 18px;font-weight: 600;font-size: 16px">工作机会
+								<div style="margin-top: -15px;color: green;">_________</div>	
+							</li>
+							<li style="margin-bottom: 14px;">企业新闻</li>
+							<li style="margin-bottom: 14px;">社会责任</li>
+							<li style="margin-bottom: 14px;">历史回顾</li>
+							<li style="margin-bottom: 14px;">联系我们</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		
+		
+		
+		<div class="row y1" style="margin: 0">
+			<div style="margin-top: 20px;margin-left: 10px;">
+				<img style="vertical-align: middle" class="iconxingbakelogo" width=35 src="https://www.starbucks.com.cn/assets/images/logo.svg" alt="">
+				<span style="margin-left: 18px;">门店</span>
+				<span style="margin-left: 18px;">我的账户</span>
+				<span style="margin-left: 18px;">菜单</span>
+				<span class="iconfont iconxialacaidan o1" style="vertical-align: middle;font-size:25px;float: right;margin-right: 5px;"></span>
+			</div>
+		
+			<div class="row" style="margin: 0;">
+					<div style="margin-left: 20px;">
+						<div style="font-size: 26px;font-weight: 900;">关于星巴克</div>
+						<ul style="list-style: none;font-size: 16px;">
+							<li style="margin-left: 5px;display: inline-block;margin-bottom: 8px;margin-top: 21px;font-size: 16px">星巴克在中国</li>
+							<li style="border-bottom: 2px solid green;margin-left: 5px;display: inline-block;margin-bottom: 8px;margin-top: 18px;font-weight: 600;font-size: 16px">工作机会
+								
+							</li>
+							<li style="margin-left: 5px;display: inline-block;margin-bottom: 14px;">企业新闻</li>
+							<li style="margin-left: 5px;display: inline-block;margin-bottom: 14px;">社会责任</li>
+							<li style="margin-left: 5px;display: inline-block;margin-bottom: 14px;">历史回顾</li>
+							<li style="margin-left: 5px;display: inline-block;margin-bottom: 14px;">联系我们</li>
+						</ul>
+					</div>
+				</div>
+		</div>
+		
+		
+		
+		<div class="col-md-8 col-md-offset-4 col-sm-8 col-sm-offset-4" style="padding: 0;">
+			<div class="container-fluid">
+				<div class="row">		
+					<div style="background-color: black;height: 846px;width: 100%;position: relative;overflow: hidden;">
+							<div style="margin: 0 auto;height: 726px;padding: 30px;">
+								<div style="font-weight: 700;font-size: 32px;text-align: center;margin-top:5px;color: white">有一个机会，成为星巴克伙伴</div>
+								<div style="color: #00A862;margin-top: 16px;font-size: 18px;text-align: center;">连接更广阔的世界</div>
+								<p style="line-height: 25px;margin-top: 20px;margin-bottom: 56px;font-size: 16px;color: white;">加入星巴克大家庭，和我们一起工作，让我们与你一起成长，创造无限可能。在星巴克工作意味着一个获得超越简单雇佣关系的机会，成为我们的伙伴。我们在这里和你一起成长，成为一个更好的人，实现更大的目标，在你面前的正是无限可能。你可以在星巴克实现更多、成就更多，并且成为最好的自己。就在这里认同自己的价值然后去发现一个更大更有意义的世界。</p>
+							<div style="display: flex;justify-content: center;">
+								<div class="qq" style="width: 300px;height: 370px;background-color: white;margin-right: 20px;">
+									<img src="imgs1/1.jpg" style="width: 100%;" />
+									<div>
+										<div style="font-weight: 900;margin-top: 18px;font-size: 22px;text-align: center;">零售门店</div>
+										<div style="line-height: 38px;background-color: #00A862;margin: 0 auto;width: 150px;height: 38px;margin-top:18px;font-size: 16px;text-align: center;color: white;border-radius: 30px;border: 1px solid green;">华东区域</div>
+										<div style="line-height: 38px;background-color: #00A862;margin: 0 auto;width: 150px;height: 38px;margin-top:15px;font-size: 16px;text-align: center;color: white;border-radius: 30px;border: 1px solid green;">其他区域</div>
+									</div>
+								</div>
+								
+								<div class="ww" style="width: 300px;height: 370px;background-color: white;">
+									<img src="imgs1/2.jpg" style="width: 100%;" />
+									<div>
+										<div style="font-weight:900;margin-top: 18px;font-size: 22px;text-align: center;">支持中心</div>
+										<div style="line-height: 38px;background-color: #00A862;margin: 0 auto;width: 150px;height: 38px;margin-top:18px;font-size: 16px;text-align: center;color: white;border-radius: 30px;border: 1px solid green;">华东区域</div>
+										<div style="line-height: 38px;background-color: #00A862;margin: 0 auto;width: 150px;height: 38px;margin-top:15px;font-size: 16px;text-align: center;color: white;border-radius: 30px;border: 1px solid green;">其他区域</div>
+										<div style="line-height: 38px;background-color: #00A862;margin: 0 auto;width: 150px;height: 38px;margin-top:15px;font-size: 16px;text-align: center;color: white;border-radius: 30px;border: 1px solid green;">中国总部</div>
+									</div>
+									
+								</div>
+								</div>
+							</div>
+							
+							<img src="imgs1/4.png"  style="width: 600px;position: absolute;left: 50%;margin-left: -300px;top:725px"/>
+								
+					</div>
+				</div>
+				<div class="row" style="height:590px;background-color:#F7F7F7">
+					<div style="width: 100%;height: 575px;margin: 0 auto;">
+						<div style="color: black;font-size: 32px;text-align: center;">关于星巴克</div>
+						<ul style="list-style: none;display: flex;justify-content: center;">
+							<li style="float: left;margin-left: 15px;width: 310px;height: 420px;">
+								<div style="margin-top: 24px;color: #E4C479;font-size: 18px;text-align: center;">伙伴文化</div>
+								<div style="margin-top: 21px;font-size: 16px;text-align: center;">有一个机会成为星巴克的伙伴</div>
+								<div style="margin-top: 28px;font-weight: 600;font-size: 18px;text-align: center;">我们的使命</div>
+								<div style="margin-top: 12px;font-size: 16px;text-align: center;">激发并孕育人文精神——每人、每杯、每个社区</div>
+								<div style="margin-top: 30px;font-weight: 600;font-size: 18px;text-align: center;">伙伴·同行</div>
+								<ul>
+									<li style="line-height: 25px;margin-left: 25px;width: 287px;margin-top: 10px;font-size: 16px;">在星巴克，我们称彼此为伙伴，伙伴们一起共享在星巴克的无限机会，伙伴们一起实现更多、成就更多</li>
+									<li style="line-height: 25px;margin-left: 25px;width: 287px;margin-top: 5px;font-size: 16px;">在星巴克，连接更广阔的世界、做最好的自己、成就非凡事业，让每一天都充满意义地连接彼此、成就自己</li>
+								</ul>
+							</li>
+							<li style="margin-right: 25px;float:right;width: 300px;height: 420px;">
+								<div style="margin-top: 24px;color: #E4C479;font-size: 18px;text-align: center;">咖啡文化</div>
+								<ul>
+									<li style="line-height: 25px;margin-left: 25px;width: 287px;margin-top: 18px;font-size: 16px;">星巴克的咖啡文化不仅是延续传统传播咖啡文化，还传递情感联系</li>
+									<li style="line-height: 25px;margin-left: 25px;width: 287px;margin-top: 5px;font-size: 16px;">始于对咖啡的热爱，星巴克从西雅图出发到如今遍布世界各地，让更多的人享受到高品质的咖啡</li>
+									<li style="line-height: 25px;margin-left: 25px;width: 287px;margin-top: 5px;font-size: 16px;">同样始于对咖啡的热爱，星巴克伙伴们从祖国各地汇聚在门店，将这份咖啡之爱传递到更广阔的天地</li>
+									<li style="line-height: 25px;margin-left: 25px;width: 287px;margin-top: 5px;font-size: 16px;">星巴克提供了诸多机会让伙伴们得以提高咖啡技能，围裙的不同颜色代表从咖啡探索者到咖啡公使的不同咖啡技能等级</li>
+								</ul>
+							</li>
+						</ul>
+						
+					</div>
+				</div>
+
+				<div class="row">
+					<div style="width:100%;margin: 0 auto;display: flex;justify-content: center;">
+						<img src="imgs1/8.jpg" style="width: 228px;height: 144px;margin-right: 7px;"/>
+						<img src="imgs1/7.png" style="width: 228px;height: 144px;margin-right: 7px;"/>
+						<img src="imgs1/9.jpg" style="width: 228px;height: 144px;" />
+					</div>
+				</div>
+	
+				<div class="row">
+					<div style="height:456px;">
+						<div style="margin-top: 40px;font-size: 33px;text-align: center;">选择星巴克</div>
+					<div style="width:720px;margin: 0 auto;padding: 10px;">
+						<div style="margin-top: 30px;font-size: 18px;color: #E4C479">雇主赞誉</div>
+						<div>
+							<ul style="margin-left: 20px;">
+								<li style="margin-top: 20px;font-size: 17px;">星巴克不只是一家“咖啡”公司更是一家和“人”有关的公司</li>
+								<li style="margin-top: 10px;font-size: 17px;">星巴克是咖啡知识和专业技能方面的领导者，同样对伙伴的重视星<br />巴克一样走在前列</li>
+								<li style="margin-top: 10px;font-size: 17px;">星巴克重视并认可伙伴们的持续贡献与持续投入，致力于帮助他们<br />实现个人和职业梦想。伙伴们拥有“咖啡豆股票”的权益并享有“助<br />房津贴计划”、“咖啡星享假期”和“父母关爱计划”等福利</li>
+								<li style="margin-top: 10px;font-size: 17px;">星巴克的努力得到了业界的赞誉与认可，并因此获得多个机构颁发<br />的最佳雇主荣誉（多次被Aon、Universum、LinkedIn等机构评<br />选为中国最佳雇主、中国最具吸引力雇主、中国典范雇主等）</li>
+							</ul>
+						</div>
+					</div>
+					</div>
+				</div>
+				
+				
+				<div class="row">
+					<svg width="100%" height="163px" viewBox="0 0 870 107" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+					    <title>Group 15</title>
+					    <desc>Created with Sketch.</desc>
+					    <defs>
+					        <rect id="path-1" x="0" y="0.180664062" width="870" height="106.819336"></rect>
+					    </defs>
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="Group-15">
+					            <mask id="mask-2" fill="white">
+					                <use xlink:href="#path-1"></use>
+					            </mask>
+					            <g id="BG"></g>
+					            <polygon id="BG" fill="#F7F7F7" mask="url(#mask-2)" points="0 57.5734608 870 31 870 107 0 107"></polygon>
+					            <path d="M3,102.96875 L865.929688,1.11376953" id="Line" stroke="#FFFFFF" stroke-width="2" stroke-linecap="square" mask="url(#mask-2)"></path>
+					            <polygon id="Rectangle-2" fill="#E5E5E5" opacity="0.496942935" mask="url(#mask-2)" points="870 31.1630859 870 1 499.895752 45.4296875"></polygon>
+					        </g>
+					    </g>
+					</svg>
+				</div>
+				
+				<div class="row" style="margin-top: -8px; background-color: #F7F7F7;">
+					<div style="width: 768px;height: 297px;margin: 0 auto;background-color: #F7F7F7;">
+						<div style="float: left;width: 205px;height:297px;background-color: #F7F7F7;position: relative;">
+							<img src="imgs1/5.png" style="position:absolute; bottom: 10px;left: 25px;" />
+						</div>
+						<div style="float: left;width: 520px;height:297px;background-color: #F7F7F7;">
+							<div style="color: #E4C479;font-size:18px ;">全面薪酬</div>
+							<p style="margin-top: 20px;font-size:16px ;">我们的伙伴无论全职还是兼职（每周20小时或以上），都可以享受一系列<br />的薪酬福利项目。根据工作职位和个人情况的不同，伙伴的全面薪酬福利<br />包括：</p>
+							<div style="float: left;margin-left: 50px;">
+								<ul style="line-height: 30px;font-size: 16px;list-style-type: circle;">
+									<li>不断增长的薪资</li>
+									<li>额外的人寿保险</li>
+									<li>医疗保险</li>
+									<li>股票期权（咖啡豆股票)</li>
+									<li>助房津贴计划</li>
+								</ul>
+							</div>		
+							<div style="float: right;margin-right: 90px;">
+								<ul style="line-height: 30px;font-size: 16px;list-style-type: circle;">
+									<li>咖啡星享假期</li>
+									<li>父母关爱计划</li>
+									<li>管理奖金计划</li>
+									<li>咖啡饮料伙伴券</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>		
+				<div class="row" >
+					<svg width="100%" height="200px" viewBox="0 0 870 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+					    <!-- Generator: Sketch 46.2 (44496) - http://www.bohemiancoding.com/sketch -->
+					    <title>Group 18</title>
+					    <desc>Created with Sketch.</desc>
+					    <defs>
+					        <polygon id="path-1" points="0 7.10542736e-15 870 0 870 118 0 118"></polygon>
+					    </defs>
+					    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					        <g id="Group-18">
+					            <mask id="mask-2" fill="white">
+					                <use xlink:href="#path-1"></use>
+					            </mask>
+					            <use id="BG" fill="#F7F7F7" xlink:href="#path-1"></use>
+					            <polygon id="BG" fill="#F2F0E6" mask="url(#mask-2)" points="0 0 870 117.273437 870 118 0 118"></polygon>
+					            <path d="M3.83984375,94.984375 L867,42.1826172" id="Line-Copy" stroke="#C3A767" stroke-width="2" opacity="0.2" stroke-linecap="square" mask="url(#mask-2)" transform="translate(435.419922, 68.583496) scale(-1, 1) translate(-435.419922, -68.583496) "></path>
+					            <polygon id="Rectangle-2-Copy" fill="#FFFFFF" opacity="0.703577899" mask="url(#mask-2)" transform="translate(275.839844, 37.308594) scale(-1, 1) translate(-275.839844, -37.308594) " points="551.679687 42.1630859 551.679687 0 -9.09494702e-13 74.6171875"></polygon>
+					        </g>
+					    </g>
+					</svg>
+				</div>
+				<div class="row" style="margin-top: -32px;background-color: #F3F1E7;">	
+					<div style="width:100%;height: 353px;margin: 0 auto;background-color: #F3F1E7;position: relative;padding-left: 20px;display:flex;justify-content: center;">
+						<div style="color: #E4C479;font-size:18px ;">星巴克大学 | 伙伴们的专属咖啡大学
+							<div style="margin-top: 18px;width: 500px;margin-left: 25px;font-size: 16px;">
+								<ul style="line-height: 25px;">
+									<li style="letter-spacing: 0.8px;">星巴克中国大学（Starbucks China University）为伙伴们设计了个<br />性化的学习与发展道路</li>
+									<li style="margin-top: 5px;">希望通过这些努力，与每一个星巴克伙伴分享每一个机会的乐趣，迎接<br />每一个机会的挑战</li>
+									<li style="margin-top: 5px;">作为星巴克伙伴，你可以在SCU选择不同的课程进行学习，打造你在关<br />键领域的专业能力，你的每一次学习都将向你想要的未来更进一步</li>
+								</ul>
+							<ul style="margin-left: 50px;font-size: 16px;list-style-type: circle;">
+								<li style="margin-top: 10px;">零售学院</li>
+								<li style="margin-top: 10px;">领导力学院</li>
+								<li style="margin-top: 10px;">咖啡与文化学院</li>
+								<li style="margin-top: 10px;">专业职能学院</li>
+							</ul>
+							</div>
+						</div>
+						<div style="position: relative;width: 100px;">
+						<img src="imgs1/6.png"  style="position: absolute;bottom: 0;"/>
+						</div> 
+					</div>
+				</div>
+				<div class="row" style="position: relative;">
+					<img src="imgs1/3.png" style="width: 100%;height: 280px;" />
+				
+					<img src="imgs1/11.png" style="width: 130px;height: 130px;position: absolute;right: 20%;bottom: 28%;" />
+					<div style="font-weight: 600;font-size: 16px;color: white;position: absolute;right: 19%;bottom: 19%;">扫描二维码  加入我们</div>
+					
+				</div>
+			</div>
+		</div>
+		</div>
+		<script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script><script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<script type="text/javascript">
+			$(".o").click(function(){
+	    		$('.m').css('display','block')
+	    		$('.mm').css('display','none')
+	    	})
+    	
+	    	$(".x").click(function(){
+	    		$('.m').css('display','none')
+	    		$('.mm').css('display','block')
+	    	})
+	    	$(".x1").click(function(){
+	    		$('.s').css('display','none')
+	    		$('.p').css('display','block')
+	    		
+	    	})
+	    	$(".o1").click(function(){
+	    		$('.s').css('display','block')
+	    		$('.p').css('display','none')
+	    	})
+			   //logo
+			   $('.iconxingbakelogo').on('click',function(){
+					window.location.href='/main.html'
+				})
+				//login reg
+				$('.loginbtn').on('click',function(){
+					window.location.href='/login.html'
+				})
+				$('.regbtn').on('click',function(){
+					window.location.href='/reg.html'
+				})
+		</script>
+	</body>
+</html>
